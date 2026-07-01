@@ -527,26 +527,25 @@ footer {
         margin-bottom: 40px;
     }
 
-    .about-content, .contact-content {
+    .about-content, .contact-content{
         grid-template-columns: 1fr; /* Stack content vertically */
     }
 
     .profile-img {
         margin-bottom: 30px;
     }
-    .reel-card {
+    .project-grid-2{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    /* .reel-card {
         max-width: 100%;
         height: 100vh; /* Fill the whole screen like Instagram/TikTok */
         border-radius: 0;
         border: none;
         
-    }
+    } */
    
-
-    .video-container {
-        flex-grow: 1; /* Pushes the video to occupy all available vertical space */
-        aspect-ratio: auto; /* Allow height to stretch naturally on mobile viewports */
-    }
     
     /* Center timeline items on mobile */
     .timeline::after {
